@@ -18,4 +18,7 @@ func main() {
 
 	quotient, remainder := mathops.Divide(10, 3)
 	fmt.Printf("Division: Quotient - %d, Remainder - %d\n", quotient, remainder)
+
+	result = mathops.Power(2, 3)
+	fmt.Println("Power:", result)
 }

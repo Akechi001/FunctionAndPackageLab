@@ -20,3 +20,12 @@ func Multiply(a, b int) int {
 func Divide(a, b int) (int, int) {
 	return a / b, a % b
 }
+
+// Power calculates the power of a number.
+func Power(base, exponent int) int {
+	result := 1
+	for i := 0; i < exponent; i++ {
+		result *= base
+	}
+	return result
+}
